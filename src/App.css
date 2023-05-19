@@ -1,0 +1,18 @@
+.card-padre {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+.class-componentSection {
+  padding: 10px;
+  border: 1px solid grey;
+  max-width: 250px;
+  max-height: 250px;
+  margin-bottom: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.class-componentSection-img {
+  max-width: 100px;
+}

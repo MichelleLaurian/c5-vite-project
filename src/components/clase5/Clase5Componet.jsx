@@ -1,11 +1,12 @@
 import React from "react";
 
 function Clase5Componet({ producto }) {
-  return (<section>
-    <h3>{producto.nome}</h3>
-    <img src={producto.image} alt={producto.nome} />
-    <p>{producto.preco}</p>
-  </section>)
+  return (
+  <div className="class-componentSection">
+    <h3 className="class-componentSection-name">{producto.nome}</h3>
+    <img className="class-componentSection-img" src={producto.image} alt={producto.nome} />
+    <p className="class-componentSection-precio" >{producto.preco}</p>
+  </div>)
 }
 
 export default Clase5Componet;

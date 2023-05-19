@@ -5,7 +5,6 @@ function App() {
   return (
     <>
     <Clase5/>
-      <div>prueba</div>
     </>
   );
 }
