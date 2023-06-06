@@ -41,6 +41,10 @@ function Forms() {
 				/>
 				<button type="submit">Enviar</button>
 			</form>
+			<div>
+				<p>{persona.nombre}</p>
+				<p>{persona.direccion}</p>
+			</div>
 		</div>
 	);
 }
